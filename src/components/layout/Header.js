@@ -123,12 +123,12 @@ const Header = ({
                         Home
                       </Link>
                     </li>
-                    <li>
-                      <Link to="#0" onClick={closeMenu}>
+                    <li onClick={closeMenu && scrollToAbout}>
+                      <Link to="/" onClick={closeMenu && scrollToAbout}>
                         About
                       </Link>
                     </li>
-                    <li onClick={scrollToAbout}>
+                    <li>
                       <Link to="#0" onClick={closeMenu}>
                         Contact
                       </Link>
