@@ -66,9 +66,8 @@ const Hero = ({
                 className="m-0 mb-32 reveal-from-bottom"
                 data-reveal-delay="400"
               >
-               Lorem ipsum dolor etsum deioum lacris
-
-             </p>
+                Lorem ipsum dolor etsum deioum lacris
+              </p>
               <div className="reveal-from-bottom" data-reveal-delay="600">
                 <ButtonGroup>
                   <Button
@@ -85,7 +84,7 @@ const Hero = ({
                     wideMobile
                     onClick={scrollToAbout}
                   >
-                    Learn More
+                    About
                   </Button>
                 </ButtonGroup>
               </div>

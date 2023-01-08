@@ -79,6 +79,12 @@ const Header = ({
     className
   );
 
+  const scrollToAbout = () => {
+    document
+      .getElementById("about")
+      .scrollIntoView({ behavior: "smooth", alignToTop: true });
+  };
+
   return (
     <header {...props} className={classes}>
       <div className="container">
@@ -120,6 +126,11 @@ const Header = ({
                     <li>
                       <Link to="#0" onClick={closeMenu}>
                         About
+                      </Link>
+                    </li>
+                    <li onClick={scrollToAbout}>
+                      <Link to="#0" onClick={closeMenu}>
+                        Contact
                       </Link>
                     </li>
                   </ul>
