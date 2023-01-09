@@ -51,7 +51,7 @@ const FeaturesSplit = ({
   const sectionHeader = {
     title: "Why Choose Us",
     paragraph:
-      "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum — semper quis lectus nulla at volutpat diam ut venenatis.",
+      "Our passion for people starts with a strong commitment to our customers and our immediate community. We are dedicated to ensuring our customers enjoy qualitative service, and are treated with fairness, respect and dignity. We are also tenacious in making sure all of our global operations function as safely, efficiently and securely as possible. ",
   };
 
   return (
@@ -66,7 +66,8 @@ const FeaturesSplit = ({
                 data-reveal-container=".split-item"
               >
                 <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
-                  Lorem ipsum
+                  We care deeply about the health and safety of our employees,
+                  partners and customers.
                 </div>
                 <h3 className="mt-0 mb-12">Nnando Farms</h3>
               </div>
@@ -92,7 +93,9 @@ const FeaturesSplit = ({
                 data-reveal-container=".split-item"
               >
                 <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
-                  Lorem ipsum
+                  Our business practices, products and services help bring
+                  economic value that sustains our agricultural communities and
+                  lands.{" "}
                 </div>
                 <h3 className="mt-0 mb-12">Nnando Farms</h3>
               </div>
@@ -118,7 +121,11 @@ const FeaturesSplit = ({
                 data-reveal-container=".split-item"
               >
                 <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
-                  Lorem ipsum
+                  We understand that the way we do business, conduct ourselves
+                  and approach procedures collectively uphold the integrity of
+                  the Nnando Farm and its employees. Throughout our global
+                  organization, we continually work to integrate integrity into
+                  all aspects of our business.{" "}
                 </div>
                 <h3 className="mt-0 mb-12">Nnando Farms</h3>
               </div>
